@@ -2,6 +2,7 @@ package com.company;
 
 public class Main {
 
+    // Backtracking Solution
     private static void Zig_Zag(int[] myArray, int[] Sol, int K, int Ascending) {
         if(K < myArray.length){
 
@@ -10,6 +11,7 @@ public class Main {
                 boolean check = true;
                 Sol[K] = myArray[index];
 
+                // Rules: The element must not repeat itself; Order a < b > c < d > e and so on.
                 if(K > 0 && (Sol[K] - Sol[K - 1]) * Ascending > 0) check = false;
                 for(int index_2 = K - 1; index_2 >= 0; index_2--){
                     if(Sol[index_2] == Sol[K]){
@@ -27,7 +29,6 @@ public class Main {
             System.out.println();
         }
     }
-
     public static void main(String[] args) {
 
         int[] arr = {4, 3, 7, 8, 6, 2, 1};
@@ -35,7 +36,5 @@ public class Main {
         int[] Aux = new int[java.lang.Math.max(arr.length, arr2.length)];
 
         Zig_Zag(arr, Aux, 0, 1);
-
-
     }
 }

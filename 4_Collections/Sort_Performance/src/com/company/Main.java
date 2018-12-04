@@ -25,7 +25,7 @@ public class Main {
         }while(check);
 
         Instant stop = Instant.now();
-        System.out.println("BubbleSort: " + Duration.between(stop, start));
+        System.out.println("BubbleSort: " + Duration.between(start, stop));
     }
     private static <T extends Comparable> void  QuickSort(List<T> list, int Left, int Right) {
         if(Left >= Right){
