@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="168e8682-ff79-45f3-9946-67b1fbd24a76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Sort_Performance/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bell_Triangle/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bell_Triangle/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bell_Triangle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Bell_Triangle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bell_Triangle/out/production/Bell_Triangle/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Bell_Triangle/out/production/Bell_Triangle/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bell_Triangle/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Bell_Triangle/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Leaders/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Leaders/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MergeSort/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeSort/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MergeSort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeSort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MergeSort/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MergeSort/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pascal_Triangle/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pascal_Triangle/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pascal_Triangle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pascal_Triangle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pascal_Triangle/out/production/Pascal_Triangle/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Pascal_Triangle/out/production/Pascal_Triangle/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pascal_Triangle/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Pascal_Triangle/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sort_Performance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_Performance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sort_Performance/out/production/Sort_Performance/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_Performance/out/production/Sort_Performance/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Sort_Performance/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sort_Performance/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spiral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spiral/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spiral/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spiral/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="168e8682-ff79-45f3-9946-67b1fbd24a76" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +14,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="232">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -64,8 +44,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -116,9 +96,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25416037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -136,7 +115,6 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329718" />
-      <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -145,13 +123,14 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Maven" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="232">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
