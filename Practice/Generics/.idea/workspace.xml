@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="381b3464-2503-46b6-a681-dd934e1648da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../6_OOP/2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../6_OOP/2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/SortMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../4_Collections/MergeSort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../4_Collections/MergeSort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/6_OOP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/out/production/6_OOP/com/company/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/out/production/6_OOP/com/company/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/out/production/6_OOP/com/company/Main$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/out/production/6_OOP/com/company/Main$1Q.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/out/production/6_OOP/com/company/Main$2Q.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/out/production/6_OOP/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/out/production/6_OOP/com/company/MyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/src/com/company/A.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/src/com/company/B.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/src/com/company/MyAbstractClass.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../6_OOP/src/com/company/MyInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java_F/Java_F.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java_F/out/production/Java_F/com/company/Actor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java_F/out/production/Java_F/com/company/Film.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java_F/out/production/Java_F/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java_F/out/production/Java_F/com/company/Premiu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java_F/out/production/Java_F/com/company/Studio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java_F/src/com/company/Actor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java_F/src/com/company/Film.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java_F/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java_F/src/com/company/Premiu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java_F/src/com/company/Studio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/out/production/1/com/company/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/out/production/1/com/company/P$Chopstick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/out/production/1/com/company/P$Philosopher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/out/production/1/com/company/P.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/src/com/company/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OOP/1/src/com/company/P.java" beforeDir="false" />
-    </list>
+    <list default="true" id="381b3464-2503-46b6-a681-dd934e1648da" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,12 +13,13 @@
     <session id="23830199">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -98,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="527">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Begin#0;class#Main#0" />
@@ -149,9 +100,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1375" />
-    <option name="width" value="552" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1927" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -160,8 +111,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -212,10 +163,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-1927" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06823028" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14113785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -282,6 +233,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Begin#0;class#Main#0" />
+            <element signature="method#receiveTestCase#0;class#Main#0" />
+            <element signature="method#generateTestCases#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/SortMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -295,19 +259,6 @@
             <element signature="method#insertionsSort#0;class#SortMethods#0" />
             <element signature="method#forSort#0;class#SortMethods#0" />
             <element signature="method#bubbleSort#0;class#SortMethods#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Begin#0;class#Main#0" />
-            <element signature="method#receiveTestCase#0;class#Main#0" />
-            <element signature="method#generateTestCases#0;class#Main#0" />
           </folding>
         </state>
       </provider>
