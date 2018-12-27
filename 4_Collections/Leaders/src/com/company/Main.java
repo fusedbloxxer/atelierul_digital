@@ -47,9 +47,11 @@ public class Main {
             //Iterate through the List from right to left
             for(int index = myList.size() - 2; index >= 0; index--){
                 //If the current element is bigger than the maximum value then it is a Leader.
-                if(myList.get(index) > MaxValue) System.out.println(myList.get(index));
-                //Check if there is a bigger number
-                if(MaxValue < myList.get(index)) MaxValue = myList.get(index);
+                if(myList.get(index) > MaxValue) {
+                    System.out.println(myList.get(index));   
+                    // Check if there is a bigger number
+                    MaxValue = myList.get(index);
+                }
             }
         }
         catch (Exception ex)
