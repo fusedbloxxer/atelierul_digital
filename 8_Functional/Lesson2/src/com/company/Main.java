@@ -95,8 +95,9 @@ class Lesson2 {
                     {
                         int index = list.indexOf(element);
                         if(index >= 2 && index <= 4)
-                            stringBuilder.append(element);
+                            stringBuilder.append(element + "-");
                     });
+        stringBuilder.deleteCharAt(stringBuilder.length() - 1);
         System.out.println(stringBuilder);
     }
 
@@ -106,8 +107,7 @@ class Lesson2 {
     private void exercise4() throws IOException {
         try (BufferedReader reader = Files.newBufferedReader(
                 Paths.get("SonnetI.txt"), StandardCharsets.UTF_8)) {
-                // .control space
-            System.out.println(reader.lines().count());
+                System.out.println(reader.lines().count());
         }
     }
 
@@ -121,10 +121,11 @@ class Lesson2 {
         try (BufferedReader reader = Files.newBufferedReader(
                 Paths.get("SonnetI.txt"), StandardCharsets.UTF_8)) {
 
-            Set<String> stringSet = reader.lines()
+                List<String> stringSet = reader.lines()
                                           .flatMap(line -> Stream.of(line.split(WORD_REGEXP)))
-                                          .collect(toSet());
-            stringSet.forEach(System.out::println);
+                                          .distinct()
+                                          .collect(Collectors.toList());
+                stringSet.forEach(System.out::println);
         }
     }
 
@@ -137,13 +138,13 @@ class Lesson2 {
         try (BufferedReader reader = Files.newBufferedReader(
                 Paths.get("SonnetI.txt"), StandardCharsets.UTF_8)) {
 
-            List<String> stringList = reader.lines()
+                List<String> stringList = reader.lines()
                     .flatMap(line -> Stream.of(line.split(WORD_REGEXP)))
                     .distinct()
                     .map(String::toLowerCase)
                     .sorted()
                     .collect(toList());
-            stringList.forEach(System.out::println);
+                 stringList.forEach(System.out::println);
         }
     }
 
@@ -153,13 +154,13 @@ class Lesson2 {
     private void exercise7() throws IOException {
         try (BufferedReader reader = Files.newBufferedReader(
                 Paths.get("SonnetI.txt"), StandardCharsets.UTF_8)) {
-            List<String> stringList = reader.lines()
+                List<String> stringList = reader.lines()
                     .flatMap(line -> Stream.of(line.split(WORD_REGEXP)))
                     .distinct()
                     .map(String::toLowerCase)
                     .sorted(Comparator.comparingInt(String::length))
                     .collect(toList());
-            stringList.forEach(System.out::println);
+                stringList.forEach(System.out::println);
         }
     }
 

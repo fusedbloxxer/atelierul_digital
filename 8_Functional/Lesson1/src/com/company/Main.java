@@ -92,7 +92,7 @@ class Lesson1 {
         map.put("a", 1);
 
         StringBuilder stringBuilder = new StringBuilder();
-        map.forEach((s, integer) -> { stringBuilder.append(s.toString() + integer.toString()); });
+        map.forEach((s, integer) -> stringBuilder.append(s + integer.toString()));
         System.out.println(stringBuilder);
     }
 
@@ -104,9 +104,8 @@ class Lesson1 {
     private void exercise5() {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
-        new Thread(() -> {
-            list.forEach(System.out::println);
-        }).start();
+        new Thread(() -> list.forEach(System.out::println))
+                  .start();
     }
 
     /**
