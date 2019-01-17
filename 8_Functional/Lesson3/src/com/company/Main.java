@@ -6,7 +6,7 @@ package com.company;
  */
 
 import java.io.IOException;
-import java.util.List;
+import java.util.*;
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -16,7 +16,7 @@ import java.util.stream.Stream;
  * @author Simon Ritter (@speakjava)
  * @author Stuart Marks
  */
-class Lesson3 {
+class Main {
     /* How many times to repeat the test.  5 seems to give reasonable results */
     private static final int RUN_COUNT = 5;
 
@@ -70,8 +70,13 @@ class Lesson3 {
         final int LIST_SIZE = wordList.size();
         int[][] distances = new int[LIST_SIZE][LIST_SIZE];
 
-        // YOUR CODE HERE
-
+        if(parallel) {
+            wordList.parallelStream()
+                    .forEach(p1 -> wordList.parallelStream().
+                                            forEach(p2 -> distances[wordList.indexOf(p1)][wordList.indexOf(p2)] = Levenshtein.lev(p1,p2)));
+        } else {
+            wordList.forEach(p1 -> wordList.forEach(p2 -> distances[wordList.indexOf(p1)][wordList.indexOf(p2)] = Levenshtein.lev(p1,p2)));
+        }
         return distances;
     }
 
@@ -83,9 +88,23 @@ class Lesson3 {
      * @return The list processed in whatever way you want
      */
     static List<String> processWords(List<String> wordList, boolean parallel) {
-        // YOUR CODE HERE
-
-        return null;
+        if(parallel) {
+            return
+                    wordList.parallelStream()
+                            .filter(e -> e.charAt(0) != 'a')
+                            .distinct()
+                            .sorted()
+                            .map(String::toUpperCase)
+                            .collect(Collectors.toList());
+        } else {
+            return
+                    wordList.stream()
+                            .filter(e -> e.charAt(0) != 'a')
+                            .distinct()
+                            .sorted()
+                            .map(String::toUpperCase)
+                            .collect(Collectors.toList());
+        }
     }
 
     /**
@@ -94,9 +113,6 @@ class Lesson3 {
      * @param args the command line arguments
      * @throws IOException If word file cannot be read
      */
-
-}
-class Main {
     public static void main(String[] args) throws IOException {
         RandomWords fullWordList = new RandomWords();
         List<String> wordList = fullWordList.createList(1000);
@@ -104,7 +120,7 @@ class Main {
         measure("Sequential", () -> computeLevenshtein(wordList, false));
         measure("Parallel", () -> computeLevenshtein(wordList, true));
 
-//    measure("Sequential", () -> processWords(wordList, false));
-//    measure("Parallel", () -> processWords(wordList, true));
+        measure("Sequential", () -> processWords(wordList, false));
+        measure("Parallel", () -> processWords(wordList, true));
     }
 }
