@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ecc33f4-284d-413a-960d-cf980eabf720" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../8_Functional/Lesson1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../8_Functional/Lesson1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CURS/Collections.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CURS/Concurrency.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CURS/Functional.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CURS/IOExceptions.rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CURS/OOP(1).rtf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex/Ex.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex/out/production/Ex/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Ex/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FileManip/FileManip.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FileManip/out/production/FileManip/com/company/Main$CryptPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FileManip/out/production/FileManip/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FileManip/paths.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FileManip/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/.idea/artifacts/FilesManipulation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/.idea/artifacts/FilesManipulation_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/FilesManipulation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/out/artifacts/FilesManipulation/FilesManipulation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/out/artifacts/FilesManipulation_jar/FilesManipulation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/out/artifacts/FilesManipulation_jar/New Text Document.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/out/artifacts/FilesManipulation_jar/filename.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/out/production/FilesManipulation/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/out/production/FilesManipulation/com/company/Main$ClasaMare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/out/production/FilesManipulation/com/company/Main$ClasaMea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/out/production/FilesManipulation/com/company/Main$CryptPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/out/production/FilesManipulation/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/paths.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation_copy/FilesManipulation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation_copy/out/artifacts/FilesManipulation/FilesManipulation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation_copy/out/artifacts/FilesManipulation_jar/FilesManipulation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation_copy/out/artifacts/FilesManipulation_jar/New Text Document.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation_copy/out/artifacts/FilesManipulation_jar/filename.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation_copy/out/production/FilesManipulation/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation_copy/out/production/FilesManipulation/com/company/Main$CryptPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation_copy/out/production/FilesManipulation/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation_copy/src/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesManipulation_copy/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hashmap/Hashmap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hashmap/out/production/Hashmap/com/company/ListNotSortedException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hashmap/out/production/Hashmap/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hashmap/src/com/company/ListNotSortedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Hashmap/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/Altceva.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/BigA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/BillPughSingleton$Helper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/BillPughSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/Button.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/EagerSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/EnumSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/LazySingleTon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/Main$Planet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/SmallA$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/SmallA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/out/production/Altceva/com/company/ThreadSafeSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Altceva/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Concurrency_Practice.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functional/Practice_1/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functional/Practice_1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functional/Practice_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functional/Practice_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functional/Practice_1/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functional/Practice_1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functional/Practice_1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functional/Practice_1/Practice_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functional/Practice_1/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/Generics.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/out/production/Generics/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/out/production/Generics/com/company/SortMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/src/com/company/SortMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Generics/testCases.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/6_OOP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/out/production/6_OOP/com/company/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/out/production/6_OOP/com/company/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/out/production/6_OOP/com/company/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/out/production/6_OOP/com/company/Main$1Q.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/out/production/6_OOP/com/company/Main$2Q.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/out/production/6_OOP/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/out/production/6_OOP/com/company/MyInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/src/com/company/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/src/com/company/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/src/com/company/MyAbstractClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/OOP_Practice/src/com/company/MyInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/6_OOP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/out/production/6_OOP/com/company/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/out/production/6_OOP/com/company/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/out/production/6_OOP/com/company/Main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/out/production/6_OOP/com/company/Main$1Q.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/out/production/6_OOP/com/company/Main$2Q.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/out/production/6_OOP/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/out/production/6_OOP/com/company/MyInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/src/com/company/A.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/src/com/company/B.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/src/com/company/MyAbstractClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OOP/exemplu/src/com/company/MyInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex2/ex2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex2/out/production/ex2/com/company/IPerson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex2/out/production/ex2/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex2/out/production/ex2/com/company/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex2/out/production/ex2/com/company/PersonWithEqualsAndHash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex2/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex3/date.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex3/ex3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex3/out/production/ex3/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ex3/src/com/company/Main.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1358670379">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1532" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1532" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1035" />
+    <option name="y" value="112" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Dota2 Senate" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ecc33f4-284d-413a-960d-cf980eabf720" name="Default Changelist" comment="" />
+      <created>1548157494535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548157494535</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03891258" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
