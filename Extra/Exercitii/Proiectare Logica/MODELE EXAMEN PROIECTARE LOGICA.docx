@@ -1,0 +1,1842 @@
+                        MODEL EXAMEN 1
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-1-2-3; 0-0;
+XY=01 --> 3-2-3; 1-0-1;
+XY=10 --> 2-0-3-2; 1-1;
+XY=11 --> 1-2-3-1; 0-0;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=8429C8B0069A. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 3-7-12-15-11-6-10-3; 9-4-1-13-9; 2-2; 14-14; 8-8; 5-5; 0-0;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=!Q0, I2=!Q1, I3=!Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 2
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-0-2; 1-1; 3-3;
+XY=01 --> 3-0-2-3; 1-1;
+XY=10 --> 2-3-0-1-2;
+XY=11 --> 3-1-2-0-3;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q0; J1=Q0; K1=!Q2; J2=Q1; K2=Q2 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 2  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 4-14-0-11-3-7-2-4; 13-10-13; 5-15-5; 6-1-6; 12-12; 8-9-8;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q2, I1=Q0, I2=!Q1, I3=!Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 3
+
+EXERCITIUL 1:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: -++. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q1; K0=Q1; J1=Q0; K1=!Q2; J2=Q1; K2=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 2  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-0-1-3-2;
+XY=01 --> 3-2-1-3; 0-0;
+XY=10 --> 3-2-3; 1-0-1;
+XY=11 --> 2-0-2; 3-3; 1-1;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 6-11-1-5-4-6; 9-13-12-2-9; 3-3; 7-7; 0-0; 14-14; 10-10; 8-15-8;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q3, I1=Q2, I2=!Q1, I3=Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 4
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 10-5-9-7-12-10; 2-15-0-2; 3-3; 14-4-14; 8-1-13-8; 11-11; 6-6;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q1, I1=!Q3, I2=!Q2, I3=Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-1-3; 0-0; 2-2;
+XY=01 --> 2-0-1-2; 3-3;
+XY=10 --> 2-1-3-2; 0-0;
+XY=11 --> 2-1-0-2; 3-3;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Fie un BB de tip D sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRDC=1A7401B74988. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 5
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (D,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+6-5-7-0-6; 4-2-3-4; 1-1; (6p)
+
+EXERCITIUL 2:
+Fie un BB de tip T sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRTC=048B954B015B. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-0-3; 2-1-2;
+XY=01 --> 2-1-2; 3-0-3;
+XY=10 --> 1-0-1; 2-2; 3-3;
+XY=11 --> 2-3-2; 1-0-1;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 6
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,D,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+6-0-3-6; 4-5-4; 7-7; 1-1; 2-2; (6p)
+
+EXERCITIUL 2:
+Fie un BB de tip T sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRTC=620576813267. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 7-6-4-9-7; 3-0-13-10-3; 8-8; 12-1-2-12; 15-14-15; 11-5-11;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q0, I1=Q2, I2=Q3, I3=!Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 7
+
+EXERCITIUL 1:
+Fie un BB de tip T sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRTC=9913945388A7. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-1-0-2; 3-3;
+XY=01 --> 2-0-3-1-2;
+XY=10 --> 3-1-0-2-3;
+XY=11 --> 3-1-0-3; 2-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 15-6-11-12-14-5-15; 0-4-13-0; 8-8; 10-7-1-10; 2-2; 9-9; 3-3;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q2, I1=Q3, I2=!Q1, I3=Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 8
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-0-7-1-6-5-2; 4-3-4; (6p)
+
+EXERCITIUL 2:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: +---. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=Q0; CK1=Q1; CK2=Q3; CK3=CLOCK Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 15  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 8-10-5-6-8; 4-7-4; 14-13-14; 15-15; 12-2-12; 1-1; 11-11; 0-0; 3-3; 9-9;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q3, I1=!Q1, I2=!Q0, I3=Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 9
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 11-7-8-11; 1-3-14-10-1; 15-5-15; 0-0; 4-2-9-4; 13-13; 12-12; 6-6;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q3, I1=Q2, I2=Q1, I3=Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=1548C1831139. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (JK,D,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-3-0-1-7-2; 4-4; 6-6; 5-5; (6p)
+
+                        MODEL EXAMEN 10
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 11-8-6-15-1-0-10-11; 12-12; 13-13; 7-7; 9-9; 4-4; 14-14; 2-2; 3-5-3;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q1, I1=!Q2, I2=!Q3, I3=!Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: +--. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q1; K0=!Q0; J1=Q0; K1=!Q2; J2=Q1; K2=Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 2  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-0-1-2; 3-3;
+XY=01 --> 2-1-3-2; 0-0;
+XY=10 --> 1-0-1; 3-3; 2-2;
+XY=11 --> 1-2-0-3-1;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 11
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+6-0-5-6; 1-1; 4-7-4; 3-3; 2-2; (6p)
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=3ACD0202A520. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 14-12-11-7-10-0-15-3-1-14; 13-2-13; 6-6; 5-5; 9-9; 8-8; 4-4;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q0, I1=Q2, I2=Q3, I3=Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 12
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-3-1; 0-2-0;
+XY=01 --> 1-3-2-0-1;
+XY=10 --> 2-3-1-0-2;
+XY=11 --> 2-0-1-3-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 7-5-12-7; 3-0-8-3; 1-2-1; 6-4-6; 9-9; 13-13; 11-15-11; 14-14; 10-10;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=Q3, I2=Q0, I3=!Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Fie un BB de tip T sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRTC=7454259AB738. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 13
+
+EXERCITIUL 1:
+Fie un BB de tip D sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRDC=9A772346095A. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 15-10-8-5-9-15; 2-3-12-2; 1-4-1; 7-7; 13-13; 14-14; 0-0; 11-11; 6-6;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q0, I1=Q3, I2=Q1, I3=!Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: +++. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q1; K0=Q2; J1=Q2; K1=!Q0; J2=Q0; K2=Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 5  pe semiperioada cand semnalul de clock este H. (6p)
+
+                        MODEL EXAMEN 14
+
+EXERCITIUL 1:
+Fie un BB de tip D sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRDC=152205737B95. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-3-2-1; 0-0;
+XY=01 --> 1-0-3-1; 2-2;
+XY=10 --> 3-2-3; 1-0-1;
+XY=11 --> 1-3-1; 0-0; 2-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (JK,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-3-5-2; 6-7-6; 1-1; 4-4; 0-0; (6p)
+
+                        MODEL EXAMEN 15
+
+EXERCITIUL 1:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalul R=0. Semnalele
+de intrare evolueaza in ordinea: SJKC=1B727C16C32B. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-0-1-3; 2-2;
+XY=01 --> 3-1-2-0-3;
+XY=10 --> 3-2-3; 1-1; 0-0;
+XY=11 --> 2-3-0-2; 1-1;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: ++++. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=CLOCK; CK1=!Q0; CK2=!Q3; CK3=Q2 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 10  pe semiperioada cand semnalul de clock este L. (6p)
+
+                        MODEL EXAMEN 16
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (D,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+6-4-7-1-0-2-6; 3-5-3; (6p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-3-2; 0-0; 1-1;
+XY=01 --> 2-0-2; 1-1; 3-3;
+XY=10 --> 2-3-1-0-2;
+XY=11 --> 2-3-0-1-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 5-0-7-14-2-6-13-1-8-10-5; 4-4; 9-9; 12-12; 15-15; 3-3; 11-11;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q1, I1=Q0, I2=Q3, I3=!Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 17
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-2-1; 0-0; 3-3;
+XY=01 --> 2-3-2; 0-1-0;
+XY=10 --> 1-2-3-1; 0-0;
+XY=11 --> 2-3-2; 0-0; 1-1;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: -++. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q2; J1=Q2; K1=!Q0; J2=Q0; K2=Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 5  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 6-4-1-6; 8-15-13-0-11-8; 10-10; 12-2-14-12; 7-7; 3-3; 9-9; 5-5;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q2, I1=!Q3, I2=Q0, I3=Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 18
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-3-0-1; 2-2;
+XY=01 --> 1-3-0-1; 2-2;
+XY=10 --> 2-0-2; 3-1-3;
+XY=11 --> 2-1-3-2; 0-0;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 6-2-10-9-8-12-6; 13-13; 14-14; 0-3-0; 1-5-4-1; 11-15-11; 7-7;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q3, I1=!Q1, I2=Q0, I3=Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: -++. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q2; J1=Q2; K1=Q0; J2=Q0; K2=!Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este L. (6p)
+
+                        MODEL EXAMEN 19
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+3-2-6-4-3; 1-1; 7-7; 0-0; 5-5; (6p)
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 4-13-9-7-3-14-2-4; 0-0; 6-6; 5-5; 11-11; 15-15; 1-8-1; 12-12; 10-10;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=Q1, I2=!Q0, I3=Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-2-3-1; 0-0;
+XY=01 --> 3-0-1-3; 2-2;
+XY=10 --> 3-0-1-2-3;
+XY=11 --> 1-2-3-0-1;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 20
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 5-1-4-14-5; 9-9; 2-11-2; 7-6-7; 13-3-13; 12-12; 15-15; 0-0; 10-10; 8-8;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q1, I1=!Q2, I2=Q0, I3=!Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul R=0. Semnalele
+de intrare evolueaza in ordinea: SJKC=76593458A9A3. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-0-1; 2-2; 3-3;
+XY=01 --> 3-2-3; 1-0-1;
+XY=10 --> 3-0-1-2-3;
+XY=11 --> 3-1-3; 0-0; 2-2;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 21
+
+EXERCITIUL 1:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: --+. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=!Q1; J1=Q0; K1=Q1; J2=Q1; K2=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 1  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (JK,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+7-3-5-7; 1-2-0-4-1; 6-6; (6p)
+
+EXERCITIUL 3:
+Fie un BB de tip D sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRDC=3B9AB483629A. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 22
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 14-2-0-6-11-3-14; 1-15-8-10-1; 5-4-7-5; 12-12; 9-9; 13-13;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q0, I1=Q1, I2=Q3, I3=!Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=4448943D837A. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: +-+. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q1; J1=Q2; K1=!Q2; J2=Q1; K2=!Q2 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 7  pe semiperioada cand semnalul de clock este L. (6p)
+
+                        MODEL EXAMEN 23
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-2-0-3; 1-1;
+XY=01 --> 2-3-2; 0-0; 1-1;
+XY=10 --> 1-0-2-1; 3-3;
+XY=11 --> 2-0-3-2; 1-1;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: +--. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q2; J1=Q0; K1=Q2; J2=Q1; K2=Q2 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 6  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (JK,JK,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+3-5-7-0-3; 4-4; 1-1; 2-2; 6-6; (6p)
+
+                        MODEL EXAMEN 24
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 8-12-9-8; 13-15-13; 4-10-14-1-4; 7-11-5-2-7; 6-6; 3-3; 0-0;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q0, I1=Q3, I2=!Q2, I3=Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un BB de tip D sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRDC=0365B0B67120. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-2-0-1; 3-3;
+XY=01 --> 1-3-1; 2-2; 0-0;
+XY=10 --> 1-3-1; 0-0; 2-2;
+XY=11 --> 1-3-0-2-1;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 25
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,JK,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+1-4-3-0-2-7-1; 5-6-5; (6p)
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: --+. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q1; J1=Q0; K1=!Q2; J2=Q0; K2=!Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 2  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-0-2; 3-1-3;
+XY=01 --> 3-1-0-2-3;
+XY=10 --> 1-3-1; 0-0; 2-2;
+XY=11 --> 3-2-1-3; 0-0;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 26
+
+EXERCITIUL 1:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: ++++. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=CLOCK; CK1=Q0; CK2=!Q2; CK3=!Q3 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-3-1-2; 0-0;
+XY=01 --> 1-3-2-1; 0-0;
+XY=10 --> 2-3-2; 1-0-1;
+XY=11 --> 1-3-0-2-1;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 5-13-2-12-8-5; 11-1-4-15-11; 0-0; 10-10; 6-6; 14-14; 3-3; 7-7; 9-9;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=!Q1, I2=Q0, I3=Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 27
+
+EXERCITIUL 1:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: +--. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q1; K0=!Q0; J1=Q0; K1=Q0; J2=Q1; K2=Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 5  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (JK,D,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-5-6-0-2; 4-3-4; 1-1; 7-7; (6p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-2-0-1-3;
+XY=01 --> 3-1-2-0-3;
+XY=10 --> 1-2-0-3-1;
+XY=11 --> 1-3-2-1; 0-0;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 28
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 3-0-6-4-3; 12-13-14-10-12; 8-8; 1-1; 7-5-15-7; 2-2; 9-9; 11-11;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q3, I1=!Q0, I2=Q2, I3=!Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-0-2-3-1;
+XY=01 --> 3-2-3; 1-1; 0-0;
+XY=10 --> 2-3-1-2; 0-0;
+XY=11 --> 2-0-3-2; 1-1;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (D,JK,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+7-2-4-0-7; 5-1-6-3-5; (6p)
+
+                        MODEL EXAMEN 29
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (D,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+5-3-4-7-5; 6-1-6; 2-2; 0-0; (6p)
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: -++. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q0; K0=!Q1; J1=Q0; K1=Q1; J2=Q0; K2=Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 2  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 3:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=3113AB89463B. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 30
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 13-3-13; 11-2-11; 14-9-10-15-14; 6-6; 4-4; 5-5; 8-8; 1-1; 12-12; 7-7; 0-0;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q0, I1=!Q1, I2=!Q3, I3=!Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-0-3; 1-1; 2-2;
+XY=01 --> 1-0-3-1; 2-2;
+XY=10 --> 2-0-3-2; 1-1;
+XY=11 --> 2-0-2; 3-3; 1-1;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (D,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+1-7-0-4-1; 6-3-6; 5-5; 2-2; (6p)
+
+                        MODEL EXAMEN 31
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-2-3-0-1;
+XY=01 --> 2-3-2; 0-0; 1-1;
+XY=10 --> 2-1-0-3-2;
+XY=11 --> 1-3-2-1; 0-0;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (JK,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+6-1-0-6; 4-2-5-4; 7-7; 3-3; (6p)
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q0; J1=Q0; K1=Q2; J2=Q1; K2=Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 4  pe semiperioada cand semnalul de clock este H. (6p)
+
+                        MODEL EXAMEN 32
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-3-0-1; 2-2;
+XY=01 --> 2-0-1-2; 3-3;
+XY=10 --> 2-0-2; 3-3; 1-1;
+XY=11 --> 1-3-1; 0-0; 2-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: +-++. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=!Q0; CK1=Q1; CK2=CLOCK; CK3=!Q3 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 5  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 3:
+Fie un BB de tip T sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRTC=219398596105. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 33
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 1-5-1; 13-9-13; 6-3-6; 10-10; 12-12; 11-11; 8-8; 2-2; 0-14-0; 4-4; 7-7; 15-15;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q0, I1=Q2, I2=Q3, I3=Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ---. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q1; K0=!Q0; J1=Q0; K1=!Q2; J2=Q0; K2=!Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 1  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 3:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul R=0. Semnalele
+de intrare evolueaza in ordinea: SJKC=704234914C47. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 34
+
+EXERCITIUL 1:
+Fie un BB de tip T sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRTC=27167B265B56. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (D,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+1-6-7-4-1; 0-0; 3-3; 5-5; 2-2; (6p)
+
+EXERCITIUL 3:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: ----. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=Q1; CK1=CLOCK; CK2=Q3; CK3=Q2 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 10  pe semiperioada cand semnalul de clock este L. (6p)
+
+                        MODEL EXAMEN 35
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 14-0-4-14; 7-7; 13-13; 3-3; 5-11-6-5; 9-9; 1-2-1; 15-15; 8-8; 10-10; 12-12;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q1, I1=!Q2, I2=Q3, I3=!Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=153C9A6D2D8B. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-1-0-3-2;
+XY=01 --> 1-2-1; 0-0; 3-3;
+XY=10 --> 2-1-0-2; 3-3;
+XY=11 --> 3-2-3; 0-0; 1-1;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 36
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 6-13-8-15-4-2-7-6; 14-5-14; 9-1-9; 0-0; 3-3; 12-12; 10-10; 11-11;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q3, I1=!Q0, I2=Q1, I3=!Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-2-0-3; 1-1;
+XY=01 --> 3-1-3; 2-0-2;
+XY=10 --> 1-3-0-1; 2-2;
+XY=11 --> 1-3-1; 0-0; 2-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (D,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+5-1-7-5; 2-3-2; 0-0; 4-4; 6-6; (6p)
+
+                        MODEL EXAMEN 37
+
+EXERCITIUL 1:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: --+. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q1; K0=Q1; J1=Q0; K1=!Q1; J2=Q1; K2=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 1  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (JK,D,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+1-2-4-1; 6-5-6; 7-3-7; 0-0; (6p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 15-5-12-1-14-6-13-15; 0-9-0; 10-10; 7-7; 11-11; 2-2; 4-4; 8-3-8;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q3, I1=Q0, I2=Q2, I3=Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 38
+
+EXERCITIUL 1:
+Fie un BB de tip T sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRTC=723B504B4B2A. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (D,D,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+5-7-4-3-6-5; 1-0-1; 2-2; (6p)
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: +--. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q0; K0=Q1; J1=Q0; K1=!Q1; J2=Q0; K2=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 5  pe semiperioada cand semnalul de clock este H. (6p)
+
+                        MODEL EXAMEN 39
+
+EXERCITIUL 1:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: ----. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=!Q2; CK1=Q0; CK2=CLOCK; CK3=Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 12  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-3-0-1; 2-2;
+XY=01 --> 1-0-3-1; 2-2;
+XY=10 --> 1-3-1; 2-2; 0-0;
+XY=11 --> 1-0-1; 2-2; 3-3;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul R=0. Semnalele
+de intrare evolueaza in ordinea: SJKC=68D7C3B550B9. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 40
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 8-11-8; 6-0-1-7-10-6; 3-3; 4-13-4; 14-14; 9-9; 5-5; 12-12; 2-2; 15-15;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q0, I1=!Q2, I2=!Q3, I3=Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (D,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-1-7-3-2; 5-5; 6-6; 4-4; 0-0; (6p)
+
+EXERCITIUL 3:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: +-++. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=!Q0; CK1=CLOCK; CK2=!Q2; CK3=Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este L. (6p)
+
+                        MODEL EXAMEN 41
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-1-3-2; 0-0;
+XY=01 --> 3-0-3; 1-1; 2-2;
+XY=10 --> 3-0-2-3; 1-1;
+XY=11 --> 2-0-3-1-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: -+-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q2; J1=Q0; K1=Q2; J2=Q0; K2=Q2 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 7  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 2-8-3-2; 7-12-13-7; 0-0; 4-14-9-1-4; 5-5; 11-11; 15-15; 10-6-10;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q0, I1=Q2, I2=Q1, I3=Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 42
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (D,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+5-1-5; 3-6-4-3; 2-2; 7-7; 0-0; (6p)
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 11-10-1-12-7-14-6-11; 9-2-9; 8-8; 3-3; 5-5; 15-15; 4-4; 13-13; 0-0;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q3, I1=!Q0, I2=!Q2, I3=Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Fie un BB de tip D sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRDC=80124765A6B9. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 43
+
+EXERCITIUL 1:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: ----. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=!Q0; CK1=Q1; CK2=CLOCK; CK3=!Q2 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 12  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-3-0-2; 1-1;
+XY=01 --> 3-0-3; 2-1-2;
+XY=10 --> 2-3-2; 0-0; 1-1;
+XY=11 --> 3-0-1-3; 2-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalul R=0. Semnalele
+de intrare evolueaza in ordinea: SJKC=A498D2D84C77. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 44
+
+EXERCITIUL 1:
+Fie un BB de tip T sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRTC=6765457B4226. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 6-4-11-15-6; 12-9-5-3-12; 13-13; 8-7-8; 1-1; 0-0; 10-10; 2-2; 14-14;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q2, I1=Q0, I2=!Q1, I3=!Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-0-3-1; 2-2;
+XY=01 --> 3-2-0-3; 1-1;
+XY=10 --> 3-1-2-0-3;
+XY=11 --> 3-2-3; 0-0; 1-1;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 45
+
+EXERCITIUL 1:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=1240781C85C5. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-2-1; 3-0-3;
+XY=01 --> 3-0-2-1-3;
+XY=10 --> 1-0-2-3-1;
+XY=11 --> 3-1-0-2-3;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 6-5-8-1-3-2-6; 11-10-11; 0-0; 13-7-9-4-13; 12-12; 15-15; 14-14;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=!Q0, I2=Q3, I3=Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 46
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (D,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+1-5-0-1; 7-7; 6-4-2-3-6; (6p)
+
+EXERCITIUL 2:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: ---+. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=!Q3; CK1=CLOCK; CK2=Q2; CK3=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 14  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 9-10-11-15-1-5-9; 0-6-0; 4-13-4; 12-12; 8-8; 2-2; 14-14; 3-3; 7-7;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=Q1, I2=!Q3, I3=!Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 47
+
+EXERCITIUL 1:
+Fie un BB de tip D sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRDC=866286697066. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: --++. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=Q3; CK1=CLOCK; CK2=Q1; CK3=Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-0-2-1-3;
+XY=01 --> 2-1-3-2; 0-0;
+XY=10 --> 1-2-3-0-1;
+XY=11 --> 2-0-1-2; 3-3;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 48
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 14-9-11-14; 10-8-12-2-10; 4-4; 5-0-5; 3-15-3; 6-7-6; 13-13; 1-1;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q1, I1=!Q3, I2=!Q2, I3=Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=457279A47182. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-2-3-0-1;
+XY=01 --> 3-0-2-3; 1-1;
+XY=10 --> 1-2-0-1; 3-3;
+XY=11 --> 3-0-1-3; 2-2;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 49
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 5-8-12-10-7-5; 3-3; 6-6; 9-14-9; 15-15; 0-0; 13-13; 1-1; 11-2-11; 4-4;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q0, I1=!Q2, I2=!Q1, I3=Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (D,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+6-5-6; 1-7-1; 4-4; 0-0; 3-3; 2-2; (6p)
+
+EXERCITIUL 3:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: -++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=CLOCK; CK1=Q3; CK2=!Q1; CK3=!Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este L. (6p)
+
+                        MODEL EXAMEN 50
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 13-11-15-0-2-13; 3-7-3; 12-12; 14-8-9-6-14; 5-5; 1-1; 10-10; 4-4;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q3, I1=Q2, I2=Q0, I3=!Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-0-2-3; 1-1;
+XY=01 --> 1-2-3-1; 0-0;
+XY=10 --> 2-1-3-2; 0-0;
+XY=11 --> 2-1-2; 3-0-3;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (D,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-6-4-2; 5-7-1-3-5; 0-0; (6p)
+
+                        MODEL EXAMEN 51
+
+EXERCITIUL 1:
+Fie un BB de tip D sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRDC=706B0B9B2406. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (JK,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+5-4-5; 3-0-3; 1-1; 2-2; 7-6-7; (6p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-1-3; 2-0-2;
+XY=01 --> 3-2-0-3; 1-1;
+XY=10 --> 3-0-1-2-3;
+XY=11 --> 1-2-0-3-1;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 52
+
+EXERCITIUL 1:
+Fie un BB de tip T sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRTC=6A9B996ABA19. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (D,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+1-4-3-0-1; 6-2-7-6; 5-5; (6p)
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: --+. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q1; K0=!Q2; J1=Q0; K1=Q2; J2=1; K2=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 2  pe semiperioada cand semnalul de clock este H. (6p)
+
+                        MODEL EXAMEN 53
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 8-15-8; 6-3-6; 7-2-9-14-13-7; 0-0; 11-12-11; 1-5-1; 4-4; 10-10;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=!Q0, I2=!Q3, I3=Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-2-1; 0-0; 3-3;
+XY=01 --> 2-0-2; 1-1; 3-3;
+XY=10 --> 3-2-0-3; 1-1;
+XY=11 --> 2-0-3-1-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=!Q2; J1=Q0; K1=!Q2; J2=Q1; K2=Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 0  pe semiperioada cand semnalul de clock este L. (6p)
+
+                        MODEL EXAMEN 54
+
+EXERCITIUL 1:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: +++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=!Q1; CK1=!Q2; CK2=CLOCK; CK3=!Q3 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 1  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-2-1-3; 0-0;
+XY=01 --> 3-1-3; 2-0-2;
+XY=10 --> 3-2-0-3; 1-1;
+XY=11 --> 3-1-3; 0-0; 2-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Fie un BB de tip D sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRDC=48AB91109B08. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 55
+
+EXERCITIUL 1:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: +---. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=Q0; CK1=!Q1; CK2=CLOCK; CK3=!Q3 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 1  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=99724DB92377. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (JK,JK,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+7-2-7; 1-1; 0-4-0; 6-6; 3-5-3; (6p)
+
+                        MODEL EXAMEN 56
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-0-1-3; 2-2;
+XY=01 --> 2-3-0-2; 1-1;
+XY=10 --> 3-2-0-3; 1-1;
+XY=11 --> 3-0-2-1-3;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Fie un BB de tip D sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRDC=06582420423A. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: -+++. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=!Q3; CK1=CLOCK; CK2=!Q1; CK3=!Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 15  pe semiperioada cand semnalul de clock este L. (6p)
+
+                        MODEL EXAMEN 57
+
+EXERCITIUL 1:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=1; K0=!Q1; J1=Q0; K1=!Q2; J2=Q1; K2=!Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 1  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-0-1-3-2;
+XY=01 --> 2-0-3-2; 1-1;
+XY=10 --> 1-0-2-1; 3-3;
+XY=11 --> 1-0-1; 3-3; 2-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 13-2-14-0-12-8-13; 15-15; 6-6; 9-10-9; 7-7; 3-3; 5-5; 1-1; 11-11; 4-4;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q1, I1=Q3, I2=Q0, I3=Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 58
+
+EXERCITIUL 1:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=!Q1; J1=Q0; K1=Q1; J2=Q1; K2=Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 12-11-10-7-8-4-2-14-15-12; 5-5; 3-3; 9-9; 6-6; 1-1; 0-0; 13-13;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q3, I1=!Q0, I2=!Q2, I3=!Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (JK,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+7-4-3-5-7; 0-6-0; 1-1; 2-2; (6p)
+
+                        MODEL EXAMEN 59
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,JK,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-7-4-5-3-0-2; 1-1; 6-6; (6p)
+
+EXERCITIUL 2:
+Fie un BB de tip T sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRTC=BB3349153774. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: +-+-. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=!Q3; CK1=CLOCK; CK2=!Q2; CK3=Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este L. (6p)
+
+                        MODEL EXAMEN 60
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-0-1-3-2;
+XY=01 --> 1-0-1; 3-3; 2-2;
+XY=10 --> 2-3-1-0-2;
+XY=11 --> 1-2-1; 0-3-0;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Fie un BB de tip T sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRTC=1708B8421305. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 3-8-2-9-7-1-4-15-5-3; 0-0; 10-10; 12-12; 6-6; 11-11; 13-13; 14-14;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q2, I1=Q3, I2=!Q0, I3=Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 61
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-0-2-3-1;
+XY=01 --> 3-1-3; 0-0; 2-2;
+XY=10 --> 3-2-0-3; 1-1;
+XY=11 --> 3-1-3; 0-2-0;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 1-0-8-2-3-1; 11-11; 9-6-4-7-9; 5-5; 12-12; 10-10; 15-15; 13-13; 14-14;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q2, I1=Q0, I2=!Q3, I3=Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (D,D,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-1-4-2; 6-3-6; 0-0; 7-7; 5-5; (6p)
+
+                        MODEL EXAMEN 62
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-1-0-3-2;
+XY=01 --> 1-0-1; 3-3; 2-2;
+XY=10 --> 2-0-2; 1-3-1;
+XY=11 --> 1-2-0-1; 3-3;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=!Q1; J1=Q0; K1=Q1; J2=Q1; K2=Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 3:
+Fie un BB de tip D sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRDC=887349551300. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 63
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 3-4-1-0-5-15-3; 13-2-8-9-14-13; 12-10-12; 7-7; 6-6; 11-11;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q0, I1=!Q3, I2=Q1, I3=Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul R=0. Semnalele
+de intrare evolueaza in ordinea: SJKC=747AB52A7881. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-3-1-0-2;
+XY=01 --> 2-3-1-2; 0-0;
+XY=10 --> 3-1-3; 2-2; 0-0;
+XY=11 --> 2-1-0-2; 3-3;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 64
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 6-7-4-3-5-0-15-6; 10-14-12-13-10; 8-9-8; 11-11; 1-1; 2-2;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q0, I1=Q1, I2=Q2, I3=Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (JK,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+4-6-4; 7-1-3-7; 2-2; 5-5; 0-0; (6p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-1-3-2; 0-0;
+XY=01 --> 1-2-1; 0-0; 3-3;
+XY=10 --> 1-0-2-1; 3-3;
+XY=11 --> 1-3-0-1; 2-2;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 65
+
+EXERCITIUL 1:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=794C977876D8. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-0-1-3; 2-2;
+XY=01 --> 3-1-0-2-3;
+XY=10 --> 3-1-0-3; 2-2;
+XY=11 --> 3-0-1-3; 2-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: -+++. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=Q1; CK1=Q2; CK2=!Q0; CK3=CLOCK Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 6  pe semiperioada cand semnalul de clock este H. (6p)
+
+                        MODEL EXAMEN 66
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 10-1-10; 8-4-8; 3-15-9-11-3; 13-14-6-5-13; 12-12; 2-2; 7-7; 0-0;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q3, I1=Q0, I2=Q1, I3=Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q0; K0=!Q0; J1=Q2; K1=Q0; J2=Q0; K2=Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 2  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 3:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=82A794B39B45. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 67
+
+EXERCITIUL 1:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul R=0. Semnalele
+de intrare evolueaza in ordinea: SJKC=1A9656D83544. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: -++. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q1; J1=Q2; K1=!Q1; J2=Q2; K2=Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 5  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (JK,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-7-6-2; 5-5; 1-1; 4-0-3-4; (6p)
+
+                        MODEL EXAMEN 68
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 6-8-4-0-13-9-2-14-6; 11-1-11; 3-3; 10-10; 12-12; 5-5; 15-15; 7-7;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=!Q1, I2=Q0, I3=!Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=16758D107222. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: +--. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=!Q0; J1=Q2; K1=Q0; J2=Q0; K2=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 1  pe semiperioada cand semnalul de clock este H. (6p)
+
+                        MODEL EXAMEN 69
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-1-4-3-2; 6-6; 5-0-5; 7-7; (6p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-0-3-2-1;
+XY=01 --> 1-0-1; 3-3; 2-2;
+XY=10 --> 3-1-3; 0-0; 2-2;
+XY=11 --> 3-0-3; 2-2; 1-1;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Fie un BB de tip T sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRTC=830B1064A508. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 70
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 1-3-15-12-11-4-10-1; 0-0; 9-2-9; 7-7; 13-13; 5-8-5; 14-14; 6-6;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=Q0, I2=!Q1, I3=Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalul R=0. Semnalele
+de intrare evolueaza in ordinea: SJKC=26CD2C41792B. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-0-2; 1-1; 3-3;
+XY=01 --> 1-0-1; 2-3-2;
+XY=10 --> 3-0-3; 2-1-2;
+XY=11 --> 2-3-2; 0-0; 1-1;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 71
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 1-6-1; 7-14-4-7; 0-0; 13-13; 15-3-15; 9-9; 8-8; 5-5; 2-2; 11-11; 10-10; 12-12;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q0, I1=!Q3, I2=Q1, I3=!Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Fie un BB de tip D sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRDC=5A9983457BB7. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-1-2-3; 0-0;
+XY=01 --> 3-2-1-3; 0-0;
+XY=10 --> 1-3-0-1; 2-2;
+XY=11 --> 2-3-1-2; 0-0;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 72
+
+EXERCITIUL 1:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: +--+. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=CLOCK; CK1=Q3; CK2=Q0; CK3=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 2  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 10-5-14-11-15-0-6-10; 7-7; 12-12; 8-8; 13-13; 3-3; 9-9; 1-1; 2-2; 4-4;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q3, I1=Q1, I2=Q0, I3=Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=508927B5BA2C. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 73
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (D,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+1-3-7-2-4-1; 6-0-6; 5-5; (6p)
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: --+. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q1; K0=!Q1; J1=1; K1=Q0; J2=Q1; K2=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 2  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 1-0-12-7-3-5-1; 6-6; 9-9; 4-8-4; 2-2; 11-14-11; 10-10; 13-13; 15-15;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=!Q3, I2=!Q0, I3=!Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 74
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-3-2; 1-0-1;
+XY=01 --> 3-1-2-3; 0-0;
+XY=10 --> 2-0-1-2; 3-3;
+XY=11 --> 3-2-3; 1-1; 0-0;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 5-10-1-9-5; 2-3-13-2; 0-0; 8-8; 7-6-7; 14-14; 11-11; 15-4-12-15;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q0, I1=Q2, I2=!Q3, I3=Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul R=0. Semnalele
+de intrare evolueaza in ordinea: SJKC=2CAC72592707. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 75
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 14-11-12-10-15-4-0-8-14; 1-3-1; 7-7; 9-2-9; 5-5; 13-13; 6-6;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q1, I1=Q3, I2=Q0, I3=!Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (JK,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+3-7-6-4-0-3; 1-1; 2-2; 5-5; (6p)
+
+EXERCITIUL 3:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul R=0. Semnalele
+de intrare evolueaza in ordinea: SJKC=C682BC335A66. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 76
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-0-2; 1-3-1;
+XY=01 --> 1-0-1; 2-2; 3-3;
+XY=10 --> 1-3-1; 2-0-2;
+XY=11 --> 2-3-0-2; 1-1;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 7-15-7; 13-5-11-14-12-13; 6-9-6; 2-8-2; 3-3; 1-1; 0-0; 4-4; 10-10;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q2, I1=Q1, I2=Q3, I3=Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (JK,D,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-3-1-7-4-2; 0-0; 6-5-6; (6p)
+
+                        MODEL EXAMEN 77
+
+EXERCITIUL 1:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ---. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q1; K0=Q1; J1=Q2; K1=Q2; J2=Q2; K2=!Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 1  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (D,JK,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+7-0-1-5-7; 2-6-2; 4-3-4; (6p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 3-14-13-7-5-3; 9-9; 11-1-2-11; 0-0; 15-15; 10-10; 6-6; 4-4; 8-8; 12-12;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q1, I1=Q3, I2=Q0, I3=Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 78
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+1-3-2-7-1; 4-4; 5-5; 0-0; 6-6; (6p)
+
+EXERCITIUL 2:
+Fie un BB de tip T sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRTC=303BA8B20170. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 8-5-1-2-13-4-7-8; 0-6-0; 3-3; 15-12-9-15; 11-11; 14-14; 10-10;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=Q1, I2=!Q3, I3=Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 79
+
+EXERCITIUL 1:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: +++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=!Q0; CK1=!Q1; CK2=Q3; CK3=CLOCK Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 7  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalul R=0. Semnalele
+de intrare evolueaza in ordinea: SJKC=B4183CB1648C. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-3-1-0-2;
+XY=01 --> 2-3-1-0-2;
+XY=10 --> 2-0-3-2; 1-1;
+XY=11 --> 1-0-3-2-1;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 80
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-0-1-3; 2-2;
+XY=01 --> 1-3-1; 0-0; 2-2;
+XY=10 --> 2-3-2; 0-0; 1-1;
+XY=11 --> 2-0-1-3-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalul R=0. Semnalele
+de intrare evolueaza in ordinea: SJKC=12B9976A6689. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q2; J1=Q0; K1=!Q2; J2=Q0; K2=Q2 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este H. (6p)
+
+                        MODEL EXAMEN 81
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,D,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+6-5-4-0-2-6; 3-3; 1-1; 7-7; (6p)
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 11-14-11; 13-8-6-9-3-15-13; 1-4-2-10-1; 12-12; 0-0; 5-5; 7-7;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q3, I1=!Q0, I2=!Q1, I3=!Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-0-1; 3-3; 2-2;
+XY=01 --> 3-2-1-3; 0-0;
+XY=10 --> 2-0-3-2; 1-1;
+XY=11 --> 3-2-1-0-3;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 82
+
+EXERCITIUL 1:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=!Q2; J1=Q2; K1=!Q0; J2=Q0; K2=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 2:
+Fie un BB de tip T sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRTC=109BB6782238. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (D,JK,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+5-6-0-5; 4-7-2-4; 1-1; 3-3; (6p)
+
+                        MODEL EXAMEN 83
+
+EXERCITIUL 1:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ---. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q2; J1=Q2; K1=Q0; J2=Q2; K2=!Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 6  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (D,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+1-0-1; 4-4; 6-2-6; 3-3; 5-5; 7-7; (6p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-2-1; 3-3; 0-0;
+XY=01 --> 2-1-0-2; 3-3;
+XY=10 --> 1-2-3-0-1;
+XY=11 --> 2-1-2; 0-3-0;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 84
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-3-0-1-2;
+XY=01 --> 3-1-0-3; 2-2;
+XY=10 --> 2-0-2; 3-3; 1-1;
+XY=11 --> 2-1-2; 3-3; 0-0;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 8-7-0-8; 10-13-2-10; 9-9; 1-1; 4-11-4; 14-12-14; 6-6; 15-15; 3-3; 5-5;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=Q0, I2=!Q1, I3=Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: +-+. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q0; K0=!Q1; J1=Q2; K1=Q1; J2=Q0; K2=!Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 6  pe semiperioada cand semnalul de clock este L. (6p)
+
+                        MODEL EXAMEN 85
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-0-2-1-3;
+XY=01 --> 3-0-2-3; 1-1;
+XY=10 --> 2-1-2; 3-3; 0-0;
+XY=11 --> 3-2-0-1-3;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 5-13-12-0-15-4-6-3-8-2-5; 10-10; 14-14; 9-9; 11-11; 7-7; 1-1;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q0, I1=!Q2, I2=!Q3, I3=!Q1 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Fie un BB de tip T sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRTC=667A9A08380A. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 86
+
+EXERCITIUL 1:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: +++. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=!Q2; J1=Q2; K1=!Q0; J2=Q2; K2=Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 1  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (JK,D,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+7-2-5-7; 4-6-1-0-4; 3-3; (6p)
+
+EXERCITIUL 3:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-1-2; 0-3-0;
+XY=01 --> 1-0-3-1; 2-2;
+XY=10 --> 3-1-2-3; 0-0;
+XY=11 --> 2-1-3-2; 0-0;
+            (fara schema). (6p)
+
+
+                        MODEL EXAMEN 87
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 8-14-11-10-5-7-2-0-8; 4-1-6-4; 3-9-3; 13-13; 15-15; 12-12;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q2, I1=!Q1, I2=Q0, I3=Q3 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (JK,JK,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+3-6-3; 7-5-2-7; 0-0; 1-4-1; (6p)
+
+EXERCITIUL 3:
+Fie un BB de tip D sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRDC=9B7447B02138. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 88
+
+EXERCITIUL 1:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=3D39A2A583C7. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (JK,JK,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+1-2-1; 7-7; 3-6-0-3; 4-4; 5-5; (6p)
+
+EXERCITIUL 3:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: +++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=Q2; CK1=!Q1; CK2=CLOCK; CK3=Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 15  pe semiperioada cand semnalul de clock este H. (6p)
+
+                        MODEL EXAMEN 89
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,D,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+1-2-3-1; 0-6-0; 5-5; 4-4; 7-7; (6p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-2-0-1; 3-3;
+XY=01 --> 2-0-1-3-2;
+XY=10 --> 1-3-0-1; 2-2;
+XY=11 --> 1-2-3-1; 0-0;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Fie un BB de tip D sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRDC=6B0765220543. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 90
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,JK,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+6-7-4-2-3-6; 5-1-5; 0-0; (6p)
+
+EXERCITIUL 2:
+Fie un BB de tip D sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRDC=69A73B869BB0. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: ----. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=!Q0; CK1=!Q2; CK2=CLOCK; CK3=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este H. (6p)
+
+                        MODEL EXAMEN 91
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-0-1-2-3;
+XY=01 --> 1-3-0-1; 2-2;
+XY=10 --> 3-2-1-3; 0-0;
+XY=11 --> 1-3-1; 0-0; 2-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q2; J1=Q2; K1=!Q2; J2=Q0; K2=Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 2  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 9-2-12-11-3-1-4-9; 13-13; 0-10-0; 7-8-15-7; 14-14; 5-5; 6-6;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q2, I1=!Q1, I2=Q3, I3=Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 92
+
+EXERCITIUL 1:
+Fie un BB de tip T sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRTC=846B23536818. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-1-0-3; 2-2;
+XY=01 --> 3-0-2-3; 1-1;
+XY=10 --> 1-3-2-1; 0-0;
+XY=11 --> 1-3-1; 0-0; 2-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: +--. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q1; K0=Q2; J1=Q2; K1=Q2; J2=Q1; K2=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 4  pe semiperioada cand semnalul de clock este L. (6p)
+
+                        MODEL EXAMEN 93
+
+EXERCITIUL 1:
+Fie un BB de tip D sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRDC=171637449B19. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 2-3-1-2; 0-0;
+XY=01 --> 2-0-2; 3-3; 1-1;
+XY=10 --> 3-2-3; 1-1; 0-0;
+XY=11 --> 2-1-3-0-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 5-1-9-2-12-3-5; 6-4-14-7-6; 15-15; 0-0; 10-10; 8-11-8; 13-13;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=!Q0, I1=!Q1, I2=Q3, I3=!Q2 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 94
+
+EXERCITIUL 1:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: -+-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q1; K0=!Q1; J1=Q1; K1=Q2; J2=Q1; K2=!Q2 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este L. (6p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-2-3-0-1;
+XY=01 --> 3-2-0-3; 1-1;
+XY=10 --> 1-3-1; 0-0; 2-2;
+XY=11 --> 3-1-0-3; 2-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Proiectati un numarator cu 3BB de tip (D,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-5-3-4-2; 1-7-1; 0-6-0; (6p)
+
+                        MODEL EXAMEN 95
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 3-2-3; 0-1-0;
+XY=01 --> 1-2-1; 0-3-0;
+XY=10 --> 2-3-0-1-2;
+XY=11 --> 3-1-3; 2-2; 0-0;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (JK,JK,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+2-5-6-2; 3-1-7-0-3; 4-4; (6p)
+
+EXERCITIUL 3:
+Fie un BB de tip JK sensibil la tranzitia "+" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalul S=0. Semnalele
+de intrare evolueaza in ordinea: RJKC=9232B8BC27A8. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 96
+
+EXERCITIUL 1:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-2-3-1; 0-0;
+XY=01 --> 2-0-2; 1-1; 3-3;
+XY=10 --> 3-2-1-3; 0-0;
+XY=11 --> 2-3-1-0-2;
+            (fara schema). (6p)
+
+
+EXERCITIUL 2:
+Proiectati un numarator cu 3BB de tip (D,JK,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+7-3-4-0-7; 1-1; 2-2; 5-5; 6-6; (6p)
+
+EXERCITIUL 3:
+Un numarator numara conform diagramei 7-3-15-7; 1-10-9-1; 6-6; 4-0-4; 2-12-2; 8-8; 13-13; 11-11; 14-14; 5-5;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q3, I1=Q2, I2=Q1, I3=Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+                        MODEL EXAMEN 97
+
+EXERCITIUL 1:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=!Q2; J1=Q0; K1=Q0; J2=Q1; K2=Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 1  pe semiperioada cand semnalul de clock este H. (6p)
+
+EXERCITIUL 2:
+Un numarator numara conform diagramei 4-5-1-6-10-12-13-14-2-9-4; 0-8-0; 15-11-15; 3-3; 7-7;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q3, I1=Q2, I2=!Q1, I3=!Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 3:
+Fie un BB de tip D sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRDC=B392AB3B0580. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+                        MODEL EXAMEN 98
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,JK,JK) in 
+ordinea 0-2 care sa numere conform diagramei: 
+3-4-6-3; 2-2; 1-7-0-1; 5-5; (6p)
+
+EXERCITIUL 2:
+Fie un BB de tip T sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=1. Semnalele
+de intrare evolueaza in ordinea: SRTC=5818B39B909A. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Fie un sistem de 4 BB de tip T adusi in regim de toggle, numerotati de la 0-3, ale caror intrari de CK au polaritatile: ++--. Sistemul devine un numarator daca facem urmatoarele conexiuni: CK0=CLOCK; CK1=!Q3; CK2=!Q0; CK3=Q2 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 17 perioade ale semnalului de ceas, incepand cu starea 3  pe semiperioada cand semnalul de clock este H. (6p)
+
+                        MODEL EXAMEN 99
+
+EXERCITIUL 1:
+Proiectati un numarator cu 3BB de tip (JK,D,D) in 
+ordinea 0-2 care sa numere conform diagramei: 
+1-2-5-7-1; 0-0; 3-3; 6-6; 4-4; (6p)
+
+EXERCITIUL 2:
+Fie un BB de tip D sensibil la tranzitia "-" a semnalului de
+ceas C. Starea initiala a BB este Q=0. Semnalele
+de intrare evolueaza in ordinea: SRDC=04096B67A809. Care este
+secventa de stari pentru iesirea Q a acestui BB? (3p)
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: --+. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q1; K0=Q0; J1=Q2; K1=!Q2; J2=Q2; K2=Q0 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 0  pe semiperioada cand semnalul de clock este L. (6p)
+
+                        MODEL EXAMEN 100
+
+EXERCITIUL 1:
+Un numarator numara conform diagramei 8-11-2-8; 12-14-9-12; 10-6-1-5-10; 7-3-7; 13-13; 15-15; 4-4; 0-0;. Daca un afisor cu 7 segmente este conectat astfel incat : 
+I0=Q3, I1=Q1, I2=!Q2, I3=!Q0 ce ordine de numarare va indica acest numarator. (3p)
+
+EXERCITIUL 2:
+Proiectati un automat cu 2BB de tip D si 2 semnale de control X si Y care sa functioneze conform diagramelor: 
+XY=00 --> 1-3-1; 2-2; 0-0;
+XY=01 --> 2-3-2; 0-0; 1-1;
+XY=10 --> 2-1-3-2; 0-0;
+XY=11 --> 1-2-3-1; 0-0;
+            (fara schema). (6p)
+
+
+EXERCITIUL 3:
+Fie un sistem de 3 BB de tip JK, numerotati de la 0-2, ale caror intrari de CK au polaritatile: ++-. Sistemul devine un numarator daca facem urmatoarele conexiuni: J0=Q2; K0=Q2; J1=Q2; K1=!Q0; J2=Q1; K2=!Q1 Desenati schema electronica a acestui numarator. Desenati formele de unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru 6 perioade ale semnalului de ceas, incepand cu starea 2  pe semiperioada cand semnalul de clock este L. (6p)
+

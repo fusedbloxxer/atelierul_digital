@@ -2,18 +2,11 @@ package com.company;
 
 import java.io.FileWriter;
 import java.io.IOException;
-import java.sql.SQLOutput;
 import java.util.*;
 
 public class Main {
 
-    /*
-    * Numarator Sincron:
-    * D/JK => 3 bistabili, ordinea, si cum sa numere
-    * */
-
     public static void main(String[] args) throws IOException {
-        Problem a = new Temporal();
         Random rnd = new Random();
 
         FileWriter fileWriter = new FileWriter("MODELE EXAMEN PROIECTARE LOGICA.rtf");
@@ -41,9 +34,7 @@ public class Main {
 }
 interface Problem {
     String generate();
-}
-class Solver {
-    String generatePolaritate(int length) {
+    default String generatePolarities(int length) {
         StringBuilder strings = new StringBuilder();
         while(length-- != 0) {
             Random rnd = new Random();
@@ -54,14 +45,16 @@ class Solver {
         }
         return strings.toString();
     }
-    String generateHexNumbers(int length, boolean JK) {
+    default String generateHexNumbers(int length, boolean JK) {
         StringBuilder strings = new StringBuilder();
         Random rnd = new Random();
         int number;
 
         while(length-- != 0) {
             if(JK)
-                number = rnd.nextInt(16);
+            {
+                number = rnd.nextInt(14);
+            }
             else
                 number = rnd.nextInt(12);
 
@@ -70,7 +63,7 @@ class Solver {
             } else {
                 switch(number) {
                     case 10: strings.append('A');
-                    break;
+                        break;
                     case 11: strings.append('B');
                         break;
                     case 12: strings.append('C');
@@ -86,7 +79,7 @@ class Solver {
         }
         return strings.toString();
     }
-    String generateSequence(int Length, int Cycles) {
+    default String generateSequence(int Length, int Cycles) {
         StringBuilder stringBuilder = new StringBuilder();
         boolean[] digits = new boolean[Length];
         Random rnd = new Random();
@@ -104,27 +97,29 @@ class Solver {
             }
             if(digits[index]) {
                 if(stringBuilder.charAt(stringBuilder.length() - 1) != ' ')
-                    stringBuilder.append(remember + "; ");
+                    stringBuilder
+                            .append(remember)
+                            .append("; ");
                 check = false;
             } else {
-                stringBuilder.append(index + "-");
+                stringBuilder
+                        .append(index)
+                        .append("-");
                 Length--;
                 digits[index] = true;
             }
         }
 
-        stringBuilder.append(remember +";");
+        stringBuilder
+                .append(remember)
+                .append(";");
 
         if(stringBuilder.toString().split(";").length > Cycles)
             generateSequence(digits.length, Cycles);
         return stringBuilder.toString();
     }
-    StringBuilder stringBuilder;
-    public String getExercise() {
-        return stringBuilder.toString();
-    }
 }
-class NumaratorSincron extends Solver implements Problem {
+class SynchronousCounter implements Problem {
 
     public String generate() {
         StringBuilder stringBuilder = new StringBuilder();
@@ -149,27 +144,24 @@ class NumaratorSincron extends Solver implements Problem {
                         .toString();
     }
 }
-class AutomatSincron extends Solver implements Problem {
+class SynchronousAuto implements Problem {
     public String generate() {
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("Proiectati un automat cu 2BB de tip D si 2 " +
-                "semnale de control X si Y care sa functioneze conform " +
-                "diagramelor: \nXY=00 --> " + generateSequence(4, 2) + "\nXY=01 --> " + generateSequence(4, 2) + "\n" +
-                "XY=10 --> " + generateSequence(4, 2) + "\nXY=11 --> " + generateSequence (4, 2) + "\n            (fara" +
-                " schema). (6p)\n");
-        return stringBuilder.toString();
+        return ("Proiectati un automat cu 2BB de tip D si 2 " + "semnale de control X si Y care sa functioneze conform " + "diagramelor: \nXY=00 --> ") +
+                generateSequence(4, 2) +
+                "\nXY=01 --> " +
+                generateSequence(4, 2) +
+                "\n" + "XY=10 --> " +
+                generateSequence(4, 2) +
+                "\nXY=11 --> " +
+                generateSequence(4, 2) + "\n            (fara" + " schema). (6p)\n";
     }
 }
-class Tabel extends Solver implements Problem {
+class Table implements Problem {
     public String generate() {
         Deque<String> params = new ArrayDeque<>();
         Random rnd = new Random();
-        stringBuilder = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
         int randomized = rnd.nextInt(4);
-        // D, T, JK
-        // SRDC, SRTC, RJKC, SJKC
-        // 12 numere
-        // Q, T
 
         switch (randomized) {
             case 0: {
@@ -206,31 +198,37 @@ class Tabel extends Solver implements Problem {
                 .append(" sensibil la tranzitia \"")
                 .append(params.pollLast())
                 .append("\" a semnalului de\n" +
-                        "ceas C. Starea initiala a BB este Q=")
-                .append(params.pollLast() + ". ");
+                        "ceas C. Starea initiala a BB este Q=").append(params.pollLast()).append(". ");
         if(randomized > 1) {
             stringBuilder.append(params.pollLast());
         }
-        stringBuilder.append("Semnalele\n" +
-                "de intrare evolueaza in ordinea: " + params.pollLast() +". Care este\n" +
-                "secventa de stari pentru iesirea Q a acestui BB? (3p)");
+        stringBuilder
+                .append("Semnalele\n" + "de intrare evolueaza in ordinea: ")
+                .append(params.pollLast()).append(". Care este\n")
+                .append("secventa de stari pentru iesirea Q a acestui BB? (3p)");
 
         return stringBuilder.toString();
     }
 }
-class Afisor extends Solver implements Problem {
+class Display implements Problem {
     public String generate() {
         boolean[] digits = new boolean[4];
         for(int i = 0; i < digits.length; i++) {
             digits[i] = false;
         }
-        stringBuilder = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
         Random rnd = new Random();
-        stringBuilder.append("Un numarator numara conform diagramei " + generateSequence(16, 11) + ". " +
-                "Daca un afisor cu 7 segmente este conectat " +
-                "astfel incat : \n");
+        stringBuilder
+                .append("Un numarator numara conform diagramei ")
+                .append(generateSequence(16, 11))
+                .append(". ")
+                .append("Daca un afisor cu 7 segmente este conectat ")
+                .append("astfel incat : \n");
         for(int i = 0; i < 4; i ++) {
-            stringBuilder.append("I" + i + "=");
+            stringBuilder
+                    .append("I")
+                    .append(i)
+                    .append("=");
             if(rnd.nextInt(2) == 1) {
                 stringBuilder.append("!");
             }
@@ -250,17 +248,16 @@ class Afisor extends Solver implements Problem {
         return stringBuilder.toString();
     }
 }
-class Temporal extends Solver implements Problem {
-    Integer BB, nrPerioade, stareInceput;
-    String tipBB;
-    String polaritati;
-    String conexiuni;
-    Character semnalClock;
+class Temporal implements Problem {
+
 
     @Override
     public String generate() {
-        stringBuilder = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder();
         int randomize = (new Random()).nextInt(2);
+        String tipBB, polaritati, conexiuni;
+        int BB, nrPerioade, stareInceput;
+        char semnalClock;
 
         if(randomize == 1) {
             BB = 4;
@@ -275,7 +272,10 @@ class Temporal extends Solver implements Problem {
 
             for(int i = 0; i < 4; i ++) {
 
-                stringBuilder.append("CK" + i + "=");
+                stringBuilder
+                        .append("CK")
+                        .append(i)
+                        .append("=");
 
                 if(randomize == i) {
                     stringBuilder.append("CLOCK");
@@ -288,7 +288,9 @@ class Temporal extends Solver implements Problem {
                     if(rnd.nextInt(2) == 1)
                         stringBuilder.append("!");
 
-                    stringBuilder.append("Q" + check);
+                    stringBuilder
+                            .append("Q")
+                            .append(check);
                 }
                 if(i + 1 < 4) {
                     stringBuilder.append("; ");
@@ -301,32 +303,47 @@ class Temporal extends Solver implements Problem {
             nrPerioade = 6;
             stareInceput = (new Random()).nextInt(8);
 
-            int digits[] = {0, 0 , 0};
             Random rnd = new Random();
-            randomize = rnd.nextInt(4);
+            int remember1 = rnd.nextInt(3), remember2 = rnd.nextInt(3);
 
             for(int i = 0; i < 3; i ++) {
 
-                stringBuilder.append("J" + i + "=");
+                stringBuilder
+                        .append("J")
+                        .append(i)
+                        .append("=");
+
                 int check;
                 do{
                     check = rnd.nextInt(3);
-                }while(digits[check] > 1);
-                digits[check]++;
+                }while(check == i && check != remember1);
                 if(rnd.nextInt() == 1)
                     stringBuilder.append("!");
-                stringBuilder.append("Q" + check);
+                if(rnd.nextInt(101) == 0) {
+                    stringBuilder.append(1);
+                } else
+                stringBuilder
+                        .append("Q")
+                        .append(check);
+
+                remember1 = check;
 
                 stringBuilder.append("; ");
 
-                stringBuilder.append("K" + i + "=");
+                stringBuilder
+                        .append("K")
+                        .append(i)
+                        .append("=");
                 do{
                     check = rnd.nextInt(3);
-                }while(digits[check] > 1);
-                digits[check]++;
+                }while(check == i && check != remember2 && check != remember1);
+
                 if(rnd.nextInt(2) == 1)
                     stringBuilder.append("!");
-                stringBuilder.append("Q" + check);
+                stringBuilder
+                        .append("Q")
+                        .append(check);
+                remember2 = check;
 
                 if(i + 1 < 3) {
                     stringBuilder.append("; ");
@@ -334,7 +351,7 @@ class Temporal extends Solver implements Problem {
             }
         }
 
-        polaritati = generatePolaritate(BB);
+        polaritati = generatePolarities(BB);
         conexiuni = stringBuilder.toString();
         semnalClock = ((new Random()).nextInt(2) == 1)?'H':'L';
 
@@ -346,16 +363,19 @@ class Temporal extends Solver implements Problem {
                 .append(tipBB);
         if(tipBB.equals("T"))
             stringBuilder.append(" adusi in regim de toggle");
-        stringBuilder.append(", numerotati de la 0-" + BB +", ale caror intrari de CK au polaritatile: ")
-                      .append(polaritati)
-                      .append(". Sistemul devine un numarator daca facem urmatoarele " +
-                                 "conexiuni: ")
-                      .append(conexiuni)
-                      .append(" Desenati " +
-                                 "schema electronica a acestui numarator. Desenati formele de " +
-                                 "unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru " + nrPerioade + " " +
-                                 "perioade ale semnalului de ceas, incepand cu starea " + stareInceput + "  pe " +
-                                 "semiperioada cand semnalul de clock este " + semnalClock +". (6p)");
+        stringBuilder
+                .append(", numerotati de la 0-")
+                .append(BB - 1)
+                .append(", ale caror intrari de CK au polaritatile: ")
+                .append(polaritati)
+                .append(". Sistemul devine un numarator daca facem urmatoarele " +
+                        "conexiuni: ")
+                .append(conexiuni)
+                .append(" Desenati " + "schema electronica a acestui numarator. Desenati formele de " + "unda pentru semnalele CLOCK, Q0, Q1, Q2 si Q3 pentru ")
+                .append(nrPerioade).append(" ").append("perioade ale semnalului de ceas, incepand cu starea ")
+                .append(stareInceput).append("  pe ")
+                .append("semiperioada cand semnalul de clock este ")
+                .append(semnalClock).append(". (6p)");
 
         return stringBuilder.toString();
     }
@@ -366,19 +386,19 @@ class ProblemFactory {
     Problem getProblem(int type) {
         switch(type) {
             case 0:
-                return new NumaratorSincron();
+                return new SynchronousCounter();
             case 1:
-                return new AutomatSincron();
+                return new SynchronousAuto();
             case 2:
-                return new Tabel();
+                return new Table();
             case 3:
-                return new Afisor();
+                return new Display();
             case 4:
                 return new Temporal();
         }
         return null;
     }
-    public static ProblemFactory getInstance() {
+    static ProblemFactory getInstance() {
         return INSTANCE;
     }
 }
