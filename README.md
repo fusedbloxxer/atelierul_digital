@@ -1,1 +1,1 @@
-# atelierul_digital
+# Java usage in different contexts
