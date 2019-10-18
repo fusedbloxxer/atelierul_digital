@@ -1,0 +1,54 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-10T16:26:31.241Z",
+        "line": 3,
+        "name": "Navigate to my site",
+        "description": "",
+        "id": "go-to-automationpractice.com;navigate-to-my-site",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11577063699,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I setup driver",
+            "match": {
+              "location": "AutomationSteps.iSetupDriver()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8565044399,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to \"http://automationpractice.com/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://automationpractice.com/index.php\"",
+                  "offset": 8
+                }
+              ],
+              "location": "AutomationSteps.iGoTo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Go to automationpractice.com",
+    "description": "",
+    "id": "go-to-automationpractice.com",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/fashion.feature",
+    "tags": []
+  }
+]
