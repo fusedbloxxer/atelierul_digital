@@ -1,6 +1,8 @@
 package steps;
 
 import backpack.TestBackpack;
+import io.cucumber.core.api.Scenario;
+import io.cucumber.java.After;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -16,6 +18,8 @@ import org.springframework.test.context.ActiveProfiles;
 import pageobjects.ContactForm;
 import pageobjects.ContactFormSuccess;
 import pageobjects.HomePage;
+import testlink.TestLink;
+import testlink.api.java.client.TestLinkAPIClient;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -99,6 +103,41 @@ public class AutomationSteps extends TestRunner {
 
     @And("I quit the driver")
     public void iQuiteTheDriver() {
+        driver.quit();
+    }
+
+    @io.cucumber.java.en.Given("I navigate to {string}")
+    public void iNavigateTo(String link) {
+        driver.get(link);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    }
+
+    @io.cucumber.java.en.When("I click on contact link")
+    public void iClickOnContactLink() {
+        HomePage homePage = new HomePage(driver);
+        contactForm = homePage.clickContactUs();
+    }
+
+    @io.cucumber.java.en.When("I complete contact details")
+    public void iCompleteContactDetails() {
+        contactForm.selectSubjectHeading("Customer service")
+                .enterEmailAddress("test@test.com")
+                .enterMessage("My Message");
+    }
+
+    @io.cucumber.java.en.Then("I submit contact form")
+    public void iSubmitContactForm() {
+        contactForm.submit();
+    }
+
+    @After
+    public void quit(Scenario scenario) {
+        TestLink testLink = new TestLink().ping();
+        if (scenario.getStatus().isOk(true)) {
+            testLink.updateTest(TestLink.TEST_CASE_NAME, TestLinkAPIClient.TEST_PASSED);
+        } else {
+            testLink.updateTest(TestLink.TEST_CASE_NAME, TestLinkAPIClient.TEST_FAILED);
+        }
         driver.quit();
     }
 }
