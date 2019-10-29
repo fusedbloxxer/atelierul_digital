@@ -14,6 +14,7 @@ import org.openqa.selenium.WebElement;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.test.context.ActiveProfiles;
 import pageobjects.ContactForm;
 import pageobjects.ContactFormSuccess;
@@ -130,7 +131,7 @@ public class AutomationSteps extends TestRunner {
         contactForm.submit();
     }
 
-    @After
+    @After("~@api")
     public void quit(Scenario scenario) {
         TestLink testLink = new TestLink().ping();
         if (scenario.getStatus().isOk(true)) {
