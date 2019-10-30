@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="441c31a3-6d71-4db2-b79a-e1620a4ea7d1" name="Default Changelist" comment="" />
+    <list default="true" id="441c31a3-6d71-4db2-b79a-e1620a4ea7d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/request/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/request/RegisterUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/response/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/response/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/model/response/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/ApiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ApiTesting.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/backpack/TestBackpack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/backpack/TestBackpack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/AutomationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/AutomationSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/backpack/TestBackpack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/backpack/TestBackpack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/AutomationSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/AutomationSteps.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +42,7 @@
   <component name="ProjectId" id="1SXwOEpBW8VBM5MLHope1Fsf7fn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/steps" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -35,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fused\Desktop\Documents\JavaPractice\Software Testing\Recap\src\test\resources" />
       <recent name="C:\Users\AnonymousClass\WorkFolder\GIT\JavaPractice\Software Testing\Recap\src\test\resources\driver" />
       <recent name="C:\Users\AnonymousClass\WorkFolder\GIT\JavaPractice\Software Testing\Recap\src\test\resources" />
       <recent name="C:\Users\AnonymousClass\WorkFolder\GIT\JavaPractice\Software Testing\Recap\src\test\driver" />
@@ -52,7 +68,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: fashion">
+  <component name="RunManager" selected="Cucumber java.Feature: ApiTesting">
+    <configuration name="Feature: ApiTesting" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ApiTesting.feature" />
+      <option name="GLUE" value="cucumber.api.spring steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="recap" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: ApiTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: contact" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/contact.feature" />
@@ -61,6 +95,24 @@
       <module name="Recap" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: contact" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: contactform" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/contactform.feature" />
+      <option name="GLUE" value="cucumber.api.spring steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="recap" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: contactform" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -110,6 +162,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: ApiTesting" />
+        <item itemvalue="Cucumber java.Feature: contactform" />
         <item itemvalue="Cucumber java.Feature: fashion" />
         <item itemvalue="Cucumber java.Feature: contact" />
         <item itemvalue="Cucumber java.Scenario: " />
