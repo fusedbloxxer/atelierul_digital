@@ -8,13 +8,23 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.*;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
+import javax.sql.DataSource;
+import java.sql.DriverManager;
 import java.util.concurrent.TimeUnit;
 
-@ComponentScan(basePackages = "backpack")
+@EnableAutoConfiguration
+@EnableJpaRepositories(basePackages = "database.repository")
+@ComponentScan(basePackages = {"backpack", "steps", "database"})
 @Configuration // Specificia ca genereaza beans.
 @PropertySource("classpath:automation.properties") // De unde sa preia valorile.
+@EntityScan(basePackages = "database.model")
 public class AutomationConfig {
 
     @Value("${browser.url}")
@@ -50,5 +60,18 @@ public class AutomationConfig {
         InternetExplorerDriver driver = new InternetExplorerDriver(options);
         driver.manage().window().maximize();
         return driver;
+    }
+
+    @Bean
+    public DataSource getDataSource() {
+        String url = "jdbc:mysql://localhost:3306/test";
+        String username = "root";
+        String password = "";
+        return new DriverManagerDataSource(url, username, password);
+    }
+
+    @Bean
+    public JdbcTemplate getTemplate(DataSource source) {
+        return new JdbcTemplate(getDataSource());
     }
 }

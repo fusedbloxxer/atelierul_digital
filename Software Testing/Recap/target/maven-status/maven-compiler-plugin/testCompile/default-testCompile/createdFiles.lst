@@ -1,6 +1,0 @@
-pageobjects\HomePage.class
-pageobjects\ContactForm.class
-steps\AutomationSteps.class
-pageobjects\ContactFormSuccess.class
-configuration\AutomationConfig.class
-steps\TestRunner.class

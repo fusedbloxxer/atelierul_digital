@@ -20,7 +20,7 @@ import pageobjects.ContactForm;
 import pageobjects.ContactFormSuccess;
 import pageobjects.HomePage;
 import testlink.TestLink;
-import testlink.api.java.client.TestLinkAPIClient;
+// import testlink.api.java.client.TestLinkAPIClient;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -135,9 +135,9 @@ public class AutomationSteps extends TestRunner {
     public void quit(Scenario scenario) {
         TestLink testLink = new TestLink().ping();
         if (scenario.getStatus().isOk(true)) {
-            testLink.updateTest(TestLink.TEST_CASE_NAME, TestLinkAPIClient.TEST_PASSED);
+           // testLink.updateTest(TestLink.TEST_CASE_NAME, TestLinkAPIClient.TEST_PASSED);
         } else {
-            testLink.updateTest(TestLink.TEST_CASE_NAME, TestLinkAPIClient.TEST_FAILED);
+           // testLink.updateTest(TestLink.TEST_CASE_NAME, TestLinkAPIClient.TEST_FAILED);
         }
         driver.quit();
     }
