@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="441c31a3-6d71-4db2-b79a-e1620a4ea7d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/testlink_api_client_2_0__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/database/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/database/dao/CustomerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/database/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/database/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DatabaseSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Database.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/configuration/AutomationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/configuration/AutomationConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/AutomationSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/AutomationSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/recap-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-steps.TestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/steps.TestRunner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/configuration/AutomationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/configuration/AutomationConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/AutomationSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/AutomationSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/database/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/database/repository/CustomerRepository.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
